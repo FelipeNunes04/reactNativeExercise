@@ -6,16 +6,30 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
+    "@expo/metro-runtime": "~3.2.3",
+    "@types/react": "^18.3.9",
     "expo": "~51.0.28",
     "expo-status-bar": "~1.12.1",
     "react": "18.2.0",
-    "react-native": "0.74.5"
+    "react-dom": "18.2.0",
+    "react-native": "0.74.5",
+    "react-native-web": "~0.19.10",
+    "typescript": "5.5"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "@eslint/js": "^9.11.1",
+    "@typescript-eslint/parser": "^8.7.0",
+    "eslint": "^9.11.1",
+    "eslint-plugin-expo": "^0.0.1",
+    "eslint-plugin-react": "^7.36.1",
+    "eslint-plugin-react-native": "^4.1.0",
+    "globals": "^15.9.0",
+    "typescript-eslint": "^8.7.0"
   },
   "private": true
 }
