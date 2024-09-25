@@ -1,7 +1,7 @@
-import Main from '@/Main';
+import MainScreen from '@/MainScreen';
 
 export default function App() {
   return (
-    <Main />
+    <MainScreen />
   );
 }

@@ -1,0 +1,1 @@
+export { default as PostsScreen } from './PostsScreen/PostsScreen';
