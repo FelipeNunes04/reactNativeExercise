@@ -9,7 +9,7 @@ type Props = {
   post: PostEntity;
 };
 
-const Post = ({ post }: Props) => {
+const PostPreFooter = ({ post }: Props) => {
   return (
     <View style={styles.preFooter}>
       <View style={styles.iconContainer}>
@@ -46,4 +46,4 @@ const Post = ({ post }: Props) => {
   );
 };
 
-export default Post;
+export default PostPreFooter;

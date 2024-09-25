@@ -8,7 +8,7 @@ type Props = {
   post: PostEntity;
 };
 
-const Post = ({ post }: Props) => {
+const PostHeader = ({ post }: Props) => {
   return (
     <View style={styles.header}>
       <Image source={{ uri: post.avatar }} style={styles.avatar} />
@@ -17,4 +17,4 @@ const Post = ({ post }: Props) => {
   );
 };
 
-export default Post;
+export default PostHeader;
